@@ -465,7 +465,6 @@ h3 {
   padding-right: 10%;
   font-weight: 300;
   position: fixed;
-  
 }
 
 .black-nav img:nth-child(1) {
@@ -644,20 +643,25 @@ h3 {
     color: #ec5242;
     transform: rotate(90deg);
   }
+
   .copy-r img {
     width: 40%;
     margin-left: 20px;
   }
+
   .copy-r2 img {
     width: 40%;
     margin-left: 20px;
   }
-  .copy-r div p:nth-child(2){
+
+  .copy-r div p:nth-child(2) {
     display: none;
   }
-  .copy-r2 div p:nth-child(2){
+
+  .copy-r2 div p:nth-child(2) {
     display: none;
   }
+
   .black-nav {
     display: none;
   }
