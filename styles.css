@@ -462,9 +462,10 @@ h3 {
   color: white;
   height: 35px;
   width: 100%;
-  padding-right: 40px;
+  padding-right: 10%;
   font-weight: 300;
   position: fixed;
+  
 }
 
 .black-nav img:nth-child(1) {
@@ -506,6 +507,7 @@ h3 {
   }
 
   nav {
+    top: 0;
     padding: 15px 0;
     display: flex;
     background-color: inherit;
@@ -641,5 +643,22 @@ h3 {
   .arrow.active {
     color: #ec5242;
     transform: rotate(90deg);
+  }
+  .copy-r img {
+    width: 40%;
+    margin-left: 20px;
+  }
+  .copy-r2 img {
+    width: 40%;
+    margin-left: 20px;
+  }
+  .copy-r div p:nth-child(2){
+    display: none;
+  }
+  .copy-r2 div p:nth-child(2){
+    display: none;
+  }
+  .black-nav {
+    display: none;
   }
 }

@@ -74,9 +74,6 @@ Use this code to copy the project: https://github.com/gersonhiggins/capstone_pro
 
 - GitHub: [@gitgersonhiggins](https://github.com/gersonhiggins)
 
-Template By Cindy Shin On Behance
-[CindyShin](https://www.behance.net/adagio07) - Cyndy's Profile.
-[ProjectTemplate](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) - Project Template.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,7 +100,9 @@ If you like this project... follow on github
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank... microverse
+Template By Cindy Shin On Behance
+[CindyShin](https://www.behance.net/adagio07) - Cyndy's Profile.
+[ProjectTemplate](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) - Project Template.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
