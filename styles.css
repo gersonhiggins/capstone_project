@@ -33,6 +33,7 @@ nav {
   width: 100%;
   height: 90px;
   transition: 0.5s;
+  top: 35px;
 }
 
 .nav-bar {
@@ -56,9 +57,9 @@ nav.scroll {
 
 .nav-menu {
   width: 70%;
-  gap: 20px;
+  gap: 6vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: right;
   list-style: none;
 }
 
@@ -73,18 +74,19 @@ nav.scroll {
 
 .campaign {
   min-width: 140px;
-  border: none;
   border-radius: 0;
   background-color: inherit;
   padding: 10px;
   font-weight: 900;
   font-size: 18px;
   transition: 0.2s border, 0.5s color;
+  border: 4px solid #ec5242;
+  color: #ec5242;
 }
 
 .campaign:hover {
-  border: 4px solid #ec5242;
-  color: #ec5242;
+  background-color: #ec5242;
+  color: #d3d3d3;
 }
 
 .hamburguer {
@@ -245,6 +247,10 @@ h3 {
   text-decoration: underline;
 }
 
+.program2 {
+  display: none;
+}
+
 .speakers {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -255,6 +261,7 @@ h3 {
   margin-inline-start: 10%;
   margin-inline-end: 10%;
   height: auto;
+  max-width: 1000px;
   gap: 30px;
 }
 
@@ -308,7 +315,7 @@ h3 {
   color: #ec5242;
 }
 
-footer {
+.footer {
   padding-top: 40px;
   color: #d3d3d3;
   font-size: 24px;
@@ -319,6 +326,10 @@ footer {
   align-items: center;
   justify-content: center;
   padding-bottom: 40px;
+}
+
+.footer2 {
+  display: none;
 }
 
 .partners {
@@ -406,6 +417,64 @@ footer {
 
 .past-contain span {
   margin-top: 0;
+}
+
+.copy-r {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline-end: 10%;
+  height: 200px;
+  width: 100%;
+  font-size: 15px;
+  gap: 30px;
+  background-color: #d3d3d3;
+}
+
+.copy-r2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline-end: 10%;
+  height: 200px;
+  width: 100%;
+  font-size: 15px;
+  gap: 30px;
+  background-color: #272a31;
+  color: white;
+}
+
+.copy-r img {
+  width: 400px;
+}
+
+.copy-r2 img {
+  width: 400px;
+  filter: grayscale(10%);
+}
+
+.black-nav {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 30px;
+  background-color: #272a31;
+  color: white;
+  height: 35px;
+  width: 100%;
+  padding-right: 40px;
+  font-weight: 300;
+  position: fixed;
+}
+
+.black-nav img:nth-child(1) {
+  width: 14px;
+  height: 18px;
+}
+
+.black-nav img:nth-child(2) {
+  width: 20px;
+  height: 19px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -497,6 +566,24 @@ footer {
 
   .intro-text2 {
     width: 80%;
+  }
+
+  .program2 {
+    padding: 30px 40px;
+    display: block;
+    color: #d3d3d3;
+    background-color: #ec5242;
+    margin-bottom: 20px;
+    font-weight: 900;
+  }
+
+  .program2:hover {
+    background-color: white;
+    color: #ec5242;
+  }
+
+  .program {
+    display: none;
   }
 
   .logo,
